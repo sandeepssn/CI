@@ -20,7 +20,7 @@
 		<uniqueVersion>false</uniqueVersion>
               <id>JbossAPPserver</id>
               <name>Jbossserver</name>
-              <url>http://localhost:9990/console/App.html#server-overview</url>
+              <url>http://localhost:9990/console/App.html</url>
 			    <layout>default</layout>
             </repository>
           		  </distributionManagement>
