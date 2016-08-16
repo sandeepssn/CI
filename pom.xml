@@ -22,4 +22,35 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
+  
+  <build>
+  <plugins>
+  <plugin>
+                <groupId>org.jboss.as.plugins</groupId>
+                <artifactId>jboss-as-maven-plugin</artifactId>
+                <version>7.9.Final</version>
+				<configuration>
+				<jbossHome>C:\Users\sandeep\jboss-as-7.1.0.Final\jboss-as-7.1.0.Final</jbossHome>
+				<serverName>default</serverName>
+				<groupId>CI</groupId>
+				<artifactId>CIProject</artifactId>
+        </configuration>
+				
+							
+				
+</plugin>
+  </plugins>
+  </build>
+  
+  
+  
+  <repositories>
+        <repository>
+              <id>JbossAPPserver</id>
+              <name>Jbossserver</name>
+              <url>http://localhost:9990/console/App.html#server-overview</url>
+        </repository>
+          </repositories>
 </project>
